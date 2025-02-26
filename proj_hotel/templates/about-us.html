@@ -3,7 +3,7 @@
  {% block title %}about us{% endblock title %}
 {% block content %}
     <!-- ##### Breadcumb Area Start ##### -->
-    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-2.jpg);">
+    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url({% static 'img/bg-img/bg-2.jpg' %});">
         <div class="bradcumbContent">
             <h2>About us</h2>
         </div>
@@ -97,7 +97,7 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="about-thumbnail mb-100">
-                        <img src="img/bg-img/2.jpg" alt="">
+                        <img src="{% static 'img/bg-img/2.jpg' %}" alt="">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
     <!-- ##### About Us Area End ##### -->
 
     <!-- ##### Milestones Area Start ##### -->
-    <section class="our-milestones section-padding-100-0 bg-img bg-overlay bg-fixed" style="background-image: url(img/bg-img/bg-4.jpg);">
+    <section class="our-milestones section-padding-100-0 bg-img bg-overlay bg-fixed" style="background-image: url({% static 'img/bg-img/bg-4.jpg' %});">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8">
@@ -191,7 +191,7 @@
                             <h6><span class="fa fa-check"></span> Malesuada lorem maximus mauris sceleri </h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/3.jpg" alt="">
+                            <img src="{% static 'img/bg-img/3.jpg' %}" alt="">
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                             <h6><span class="fa fa-check"></span> Esuada lorem maximus mauris sceleri</h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/10.jpg" alt="">
+                            <img src="{% static 'img/bg-img/10.jpg' %}" alt="">
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                             <h6><span class="fa fa-check"></span> Esuada lorem maximus mauris sceleri</h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/11.jpg" alt="">
+                            <img src="{% static 'img/bg-img/11.jpg' %}" alt="">
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
     <!-- ##### Hotels Area End ##### -->
 
     <!-- ##### Testimonial Area Start ##### -->
-    <section class="testimonial-area section-padding-100 bg-img" style="background-image: url(img/core-img/pattern.png);">
+    <section class="testimonial-area section-padding-100 bg-img" style="background-image: url({% static 'img/core-img/pattern.png' %});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -244,14 +244,14 @@
                             <div class="single-testimonial">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
                                 <h6>Michael Smith, <span>Client</span></h6>
-                                <img src="img/core-img/trip.png" alt="">
+                                <img src="{% static 'img/core-img/trip.png' %}" alt="">
                             </div>
                             
                             <!-- Single Testimonial -->
                             <div class="single-testimonial">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
                                 <h6>Nazrul Islam, <span>Developer</span></h6>
-                                <img src="img/core-img/trip.png" alt="">
+                                <img src="{% static 'img/core-img/trip.png' %}" alt="">
                             </div>
                             
                         </div>
